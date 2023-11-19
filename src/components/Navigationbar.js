@@ -1,20 +1,20 @@
-
-import {Navbar, Container, Nav, NavbarBrand} from "react-bootstrap"
+import React from 'react';
+import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Navigationbar = () => {
-    return(
-        <div>
-        <Navbar variant="dark">
-            <Container>
-                <NavbarBrand>RASYID</NavbarBrand>
-                <Nav>
-                <Nav.Link href="#home">HOME</Nav.Link>
-                <Nav.Link href="#about">ABOUT</Nav.Link>
-                <Nav.Link href="#contact">CONTACT</Nav.Link>
-                </Nav>
-            </Container>
-        </Navbar>
-        </div>
-    )
-}
-export default Navigationbar
+  return (
+    <Navbar variant="dark">
+      <Container>
+        <Navbar.Brand as={Link} to="/">RASYID</Navbar.Brand>
+        <Nav>
+          <Nav.Link as={Link} to="/">HOME</Nav.Link>
+          <Nav.Link as={Link} to="about">ABOUT</Nav.Link>
+          <Nav.Link as={Link} to="contact">CONTACT</Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
+  );
+};
+
+export default Navigationbar;

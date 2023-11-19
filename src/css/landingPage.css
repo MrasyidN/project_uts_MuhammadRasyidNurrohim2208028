@@ -28,6 +28,7 @@
   margin-top: 50px;
 }
 
+
 .about {
     background-color: #344e41;
     display: flex;
@@ -38,9 +39,9 @@
   
   .about .div {
     background-color: #344e41;
-    height: 675px;
+    height: 639px;
     position: relative;
-    width: 1440px;
+    width: 1300px;
   }
   
   .about .img {
@@ -95,9 +96,9 @@
   
   .contact .div {
     background-color: #dad7cd;
-    height: 675px;
+    height: 639px;
     position: relative;
-    width: 1440px;
+    width: 1300px;
   }
   
   .contact .frame {
@@ -147,34 +148,32 @@
     width: 493px;
   }
   
-
-.Contact .logoemail {
-  height: 40px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 40px;
-}
-
-.Contact .logoinstagram {
-  height: 40px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 60px;
-  width: 40px;
-}
-
-.Contact .logolinkedin {
-  height: 40px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 130px;
-  width: 40px;
-}
-
+  .contact .logoemail {
+    height: 40px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 40px;
+  }
+  
+  .contact .logoinstagram {
+    height: 40px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 70px;
+    width: 40px;
+  }
+  
+  .contact .logolinkedin {
+    height: 40px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 140px;
+    width: 40px;
+  }
 
 .contact .text-wrapper-2 {
   color: #000000;
@@ -215,49 +214,6 @@
   top: 73px;
 }
 
-
-.footer {
-  background-color:#588157;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.footer .frame-wrapper {
-  background-color: #588157;
-  height: 214px;
-  width: 1440px;
-}
-
-.footer .frame {
-  height: 109px;
-  left: 462px;
-  position: relative;
-  top: 57px;
-  width: 517px;
-}
-
-.footer .text-wrapper {
-  color: #000000;
-  font-family: "Poppins-Bold", Helvetica;
-  font-size: 32px;
-  font-weight: 700;
-  left: 13px;
-  position: absolute;
-  text-align: center;
-  top: -1px;
-}
-
-.footer .div {
-  color: #000000;
-  font-family: "Poppins-Medium", Helvetica;
-  font-size: 24px;
-  font-weight: 500;
-  position: absolute;
-  text-align: center;
-  top: 72px;
-}
 
 
 

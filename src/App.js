@@ -1,38 +1,32 @@
-
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navigationbar from './components/Navigationbar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
-
-import './css/landingPage.css'
 
 
+import './css/landingPage.css';
 
 function App() {
   return (
-    <div>
-  
+    <Router>
       <div className='myBG'>
-      <Navigationbar/>
-      <Home/>
-      </div>
-    
+        <Navigationbar />
+        <div> 
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+          </Routes>
 
-      <div className='About'>
-        <About/>
+        </div>
+       
       </div>
-
-      <div className='Contact'>
-        <Contact/>
-      </div>
-
-      <div className='Footer'>
-        <Footer/>
-      </div>
-    </div>
+    </Router>
   );
 }
+
 
 export default App;
